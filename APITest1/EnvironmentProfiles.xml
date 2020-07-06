@@ -9,8 +9,8 @@
                 <xs:element name="VarName" type="xs:string" minOccurs="0" />
                 <xs:element name="IsSystem" type="xs:boolean" default="false" minOccurs="0" />
                 <xs:element name="Description" type="xs:string" default="" minOccurs="0" />
-                <xs:element name="Profile1" type="xs:string" minOccurs="0" />
                 <xs:element name="SystemProfile" type="xs:string" minOccurs="0" />
+                <xs:element name="Profile1" type="xs:string" minOccurs="0" />
               </xs:sequence>
             </xs:complexType>
           </xs:element>
@@ -74,7 +74,7 @@
     <VarName>ProductVer</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>14.50</SystemProfile>
+    <SystemProfile>15.0.1</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>UserName</VarName>
@@ -86,37 +86,37 @@
     <VarName>CurrentDate</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile>3/11/2020 4:07:59 PM</SystemProfile>
+    <SystemProfile>7/6/2020 8:34:35 AM</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>QcUrl</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile />
+    <SystemProfile>http://mydph0480.hpeswlab.net:8080/qcbin</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>QcUserName</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile />
+    <SystemProfile>fabian</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>QcPassword</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile />
+    <SystemProfile>01000000D08C9DDF0115D1118C7A00C04FC297EB01000000287589DEF54EAE46AA33CD00DA994AC00000000002000000000003660000C0000000100000001DFEF8480693195FFBB90516D82441090000000004800000A0000000100000007E5FFA8701606E7EC6AB8401B342632F08000000571C931B1F11061114000000EF9E89765F8ED3E7F5EE5BD00928BA3256C872AB@@encrypted@@</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>QcDomain</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile />
+    <SystemProfile>DEFAULT</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>QcProject</VarName>
     <IsSystem>true</IsSystem>
     <Description />
-    <SystemProfile />
+    <SystemProfile>All_Methods_New</SystemProfile>
   </Profiles>
   <Profiles>
     <VarName>CurrentRunID</VarName>
