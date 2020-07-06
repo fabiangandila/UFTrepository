@@ -1,1 +1,2 @@
-﻿
+﻿CurrentTime = Time()
+print CurrentTime
