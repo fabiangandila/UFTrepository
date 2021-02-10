@@ -1,0 +1,1370 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Step">
+<Data>
+    <Name>Add-in(s) not activated</Name>
+    <Description>The following add-in(s) were associated with your test, but are not currently loaded: 
+WPF.</Description>
+    <StartTime>2020-11-13 09:07:29</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>SystemUtil.Run "C:\Program Files (x86)\Micro Focus\Unified Functional Testing\samples\Flights Application\FlightsGUI.exe",1</Name>
+    <StartTime>2020-11-13 09:07:30</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>0bf5eaa09e7d4d7e957b1886fc63fe6d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (3): &amp;quot;If WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).Exist Then&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:31</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[If WpfWindow("Micro Focus MyFlight Sample").Exist Then]]></Scripts>
+          <LineNo><![CDATA[3]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\053a52e9-e6be-4ae8-b3ab-b0bb5b029f29.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>App has been launched</Name>
+    <Description>Passed</Description>
+    <StartTime>2020-11-13 09:07:31</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>01f35031531c4479aae2f00cff469d8d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (8): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).Minimize&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:31</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").Minimize]]></Scripts>
+          <LineNo><![CDATA[8]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\1784a2c9-55bd-445e-b0da-f92d24a91d34.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (10): &amp;quot;If not(WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).Exist) Then&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:31</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[If not(WpfWindow("Micro Focus MyFlight Sample").Exist) Then]]></Scripts>
+          <LineNo><![CDATA[10]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\c2738df8-3502-4dd7-a268-8f42ffa64527.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>App is minimized</Name>
+    <Description>Passed</Description>
+    <StartTime>2020-11-13 09:07:31</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>01f35031531c4479aae2f00cff469d8d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (16): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).Restore&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:31</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").Restore]]></Scripts>
+          <LineNo><![CDATA[16]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\44551486-ef31-4781-a574-a0f933c235e6.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (18): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfEdit(&amp;quot;agentName&amp;quot;).Check CheckPoint(&amp;quot;agentName&amp;quot;)&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:31</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfEdit("agentName").Check CheckPoint("agentName")]]></Scripts>
+          <LineNo><![CDATA[18]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\3be161a7-1f39-401c-b67f-5cfec20dc7aa.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (19): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).Check CheckPoint(&amp;quot;Micro Focus MyFlight Sample&amp;quot;)&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:31</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").Check CheckPoint("Micro Focus MyFlight Sample")]]></Scripts>
+          <LineNo><![CDATA[19]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\f056e7ef-dc45-47c1-bbff-200d05aa25fd.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (20): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfEdit(&amp;quot;agentName&amp;quot;).Set &amp;quot;john&amp;quot;&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:31</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfEdit("agentName").Set "john"]]></Scripts>
+          <LineNo><![CDATA[20]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\bf738192-de80-49e9-a060-c96502e946c0.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (21): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfEdit(&amp;quot;password&amp;quot;).Check CheckPoint(&amp;quot;password&amp;quot;)&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:31</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfEdit("password").Check CheckPoint("password")]]></Scripts>
+          <LineNo><![CDATA[21]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\a10e4b79-5e2a-4892-aa52-e39d7e8fa933.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (22): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfEdit(&amp;quot;password&amp;quot;).SetSecure &amp;quot;5fabbf8e394f9cb249f5&amp;quot;&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:32</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfEdit("password").SetSecure "5fabbf8e394f9cb249f5"]]></Scripts>
+          <LineNo><![CDATA[22]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\46cdb04f-d07b-42a9-8a2c-7bd3a7706b4e.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (23): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfButton(&amp;quot;OK&amp;quot;).Click&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:32</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfButton("OK").Click]]></Scripts>
+          <LineNo><![CDATA[23]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\6821850d-86ea-4f65-9f66-b2f2d34a8541.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (24): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfButton(&amp;quot;OK&amp;quot;).Check CheckPoint(&amp;quot;OK&amp;quot;)&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:32</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfButton("OK").Check CheckPoint("OK")]]></Scripts>
+          <LineNo><![CDATA[24]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\bf1cde7f-a813-4c94-9d4a-47e89f7de2dd.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (25): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfTabStrip(&amp;quot;WpfTabStrip&amp;quot;).Select &amp;quot;SEARCH ORDER&amp;quot;&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:32</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfTabStrip("WpfTabStrip").Select "SEARCH ORDER"]]></Scripts>
+          <LineNo><![CDATA[25]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\75704182-3d22-49bf-93bd-fcaa00009cc6.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (26): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfTabStrip(&amp;quot;WpfTabStrip&amp;quot;).Select &amp;quot;BOOK FLIGHT&amp;quot;&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:32</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfTabStrip("WpfTabStrip").Select "BOOK FLIGHT"]]></Scripts>
+          <LineNo><![CDATA[26]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\91bb1432-5afa-460f-911a-07bf6c781b49.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (27): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfComboBox(&amp;quot;toCity&amp;quot;).Select &amp;quot;Seattle&amp;quot;&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:32</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfComboBox("toCity").Select "Seattle"]]></Scripts>
+          <LineNo><![CDATA[27]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\a4e8b7ca-e9f0-48b2-9d47-f44d7b3bfad2.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (28): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfImage(&amp;quot;WpfImage&amp;quot;).Click 9,10&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:32</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfImage("WpfImage").Click 9,10]]></Scripts>
+          <LineNo><![CDATA[28]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\39cf3b46-a517-42ae-95bf-e743331d11f5.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (29): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfCalendar(&amp;quot;Su&amp;quot;).SetDate &amp;quot;5-Dec-2020&amp;quot;&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:32</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfCalendar("Su").SetDate "5-Dec-2020"]]></Scripts>
+          <LineNo><![CDATA[29]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\1b1217e2-bca5-411c-a6b2-5c4aeaac5190.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (30): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfComboBox(&amp;quot;Class&amp;quot;).Check CheckPoint(&amp;quot;Class&amp;quot;)&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:33</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfComboBox("Class").Check CheckPoint("Class")]]></Scripts>
+          <LineNo><![CDATA[30]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\4c27ed4a-f380-459d-9c3a-97984875d3de.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (31): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfComboBox(&amp;quot;Class&amp;quot;).Select &amp;quot;First&amp;quot;&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:33</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfComboBox("Class").Select "First"]]></Scripts>
+          <LineNo><![CDATA[31]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\122d35e8-0f86-48bc-875b-f73148ea64b4.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (32): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfComboBox(&amp;quot;Class&amp;quot;).Check CheckPoint(&amp;quot;Class_2&amp;quot;)&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:33</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfComboBox("Class").Check CheckPoint("Class_2")]]></Scripts>
+          <LineNo><![CDATA[32]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\d3598ab5-4fcd-47a7-9853-e64c1c302512.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (33): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfComboBox(&amp;quot;Class&amp;quot;).Select &amp;quot;Business&amp;quot;&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:33</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfComboBox("Class").Select "Business"]]></Scripts>
+          <LineNo><![CDATA[33]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\843bbd11-bf6c-4165-b86a-b63fd76eaca1.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (34): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfComboBox(&amp;quot;numOfTickets&amp;quot;).Check CheckPoint(&amp;quot;numOfTickets&amp;quot;)&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:33</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfComboBox("numOfTickets").Check CheckPoint("numOfTickets")]]></Scripts>
+          <LineNo><![CDATA[34]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\d29389d1-47cc-4398-b45a-ed80dc262d0e.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (35): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfComboBox(&amp;quot;numOfTickets&amp;quot;).Select &amp;quot;13&amp;quot;&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:33</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfComboBox("numOfTickets").Select "13"]]></Scripts>
+          <LineNo><![CDATA[35]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\4dfdb638-a094-4d5a-b4b6-c9c586a45831.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (36): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfComboBox(&amp;quot;numOfTickets&amp;quot;).Check CheckPoint(&amp;quot;numOfTickets_2&amp;quot;)&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:33</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfComboBox("numOfTickets").Check CheckPoint("numOfTickets_2")]]></Scripts>
+          <LineNo><![CDATA[36]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\8d561bd1-8ec3-412f-b038-0c5392b3b384.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (37): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfComboBox(&amp;quot;numOfTickets&amp;quot;).Select &amp;quot;1&amp;quot;&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:33</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfComboBox("numOfTickets").Select "1"]]></Scripts>
+          <LineNo><![CDATA[37]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\bc059aab-10f6-461b-bf11-dff3225c9f5e.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (38): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfObject(&amp;quot;London to Paris,  all&amp;quot;).Click 130,63&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:33</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfObject("London to Paris,  all").Click 130,63]]></Scripts>
+          <LineNo><![CDATA[38]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\4f129388-4299-41fe-9454-638439d3765a.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (39): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfButton(&amp;quot;FIND FLIGHTS&amp;quot;).Check CheckPoint(&amp;quot;FIND FLIGHTS&amp;quot;)&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:34</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfButton("FIND FLIGHTS").Check CheckPoint("FIND FLIGHTS")]]></Scripts>
+          <LineNo><![CDATA[39]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\a8bdf033-9194-4942-8bbe-022892058b24.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (40): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfButton(&amp;quot;FIND FLIGHTS&amp;quot;).Click&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:34</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfButton("FIND FLIGHTS").Click]]></Scripts>
+          <LineNo><![CDATA[40]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\452dc0fd-f702-42fb-b9d0-44dd311db150.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (41): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).Dialog(&amp;quot;Error&amp;quot;).WinButton(&amp;quot;OK&amp;quot;).Click&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:34</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").Dialog("Error").WinButton("OK").Click]]></Scripts>
+          <LineNo><![CDATA[41]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\7b9b58bf-b787-4df5-966a-205cda6caf15.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (42): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfButton(&amp;quot;FIND FLIGHTS&amp;quot;).Click&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:34</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfButton("FIND FLIGHTS").Click]]></Scripts>
+          <LineNo><![CDATA[42]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\5851e740-3815-4ff1-b66a-0d71330877b5.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (43): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).Dialog(&amp;quot;Error&amp;quot;).WinButton(&amp;quot;OK&amp;quot;).Click&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:34</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").Dialog("Error").WinButton("OK").Click]]></Scripts>
+          <LineNo><![CDATA[43]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\201eeb3a-2cac-40aa-a1d0-0c8a5f214055.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (44): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfImage(&amp;quot;WpfImage&amp;quot;).Click 15,7&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:34</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfImage("WpfImage").Click 15,7]]></Scripts>
+          <LineNo><![CDATA[44]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\ed5b0a4e-9644-4477-b743-8559b91e336b.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (45): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfCalendar(&amp;quot;Su&amp;quot;).SetDate &amp;quot;31-Oct-2020&amp;quot;&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:34</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfCalendar("Su").SetDate "31-Oct-2020"]]></Scripts>
+          <LineNo><![CDATA[45]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\952e4529-dccd-47c8-be2b-310c66c96533.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (46): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfImage(&amp;quot;WpfImage&amp;quot;).Click 8,7&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:34</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfImage("WpfImage").Click 8,7]]></Scripts>
+          <LineNo><![CDATA[46]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\6347fa10-f423-4cca-91d2-23f7f890df2b.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (47): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfCalendar(&amp;quot;Su&amp;quot;).SetDate &amp;quot;23-Dec-2020&amp;quot;&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:34</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfCalendar("Su").SetDate "23-Dec-2020"]]></Scripts>
+          <LineNo><![CDATA[47]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\57fb2c50-baa3-4330-894a-61d8a54b7dac.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (48): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfButton(&amp;quot;FIND FLIGHTS&amp;quot;).Click&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:35</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfButton("FIND FLIGHTS").Click]]></Scripts>
+          <LineNo><![CDATA[48]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\46ef1483-e315-4ea7-8942-a760f07333ab.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (49): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfTable(&amp;quot;flightsDataGrid&amp;quot;).SelectCell 0,0&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:35</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfTable("flightsDataGrid").SelectCell 0,0]]></Scripts>
+          <LineNo><![CDATA[49]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\1762955f-29bf-4236-96d2-820fe20da653.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (50): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfTable(&amp;quot;flightsDataGrid&amp;quot;).SelectCell 1,0&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:35</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfTable("flightsDataGrid").SelectCell 1,0]]></Scripts>
+          <LineNo><![CDATA[50]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\1aecd593-1e17-4658-b6b2-d4e9bb391cf2.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (51): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfTable(&amp;quot;flightsDataGrid&amp;quot;).SelectCell 2,0&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:35</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfTable("flightsDataGrid").SelectCell 2,0]]></Scripts>
+          <LineNo><![CDATA[51]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\59c6785f-993d-460e-9ae8-fa3a4dc79587.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (52): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfTable(&amp;quot;flightsDataGrid&amp;quot;).SelectCell 4,0&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:35</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfTable("flightsDataGrid").SelectCell 4,0]]></Scripts>
+          <LineNo><![CDATA[52]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\69806e58-35fe-4d95-9e91-60d6e096a1cd.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (53): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfTable(&amp;quot;flightsDataGrid&amp;quot;).Check CheckPoint(&amp;quot;flightsDataGrid&amp;quot;)&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:35</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfTable("flightsDataGrid").Check CheckPoint("flightsDataGrid")]]></Scripts>
+          <LineNo><![CDATA[53]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\bfdf0be0-bf2b-40fe-8ab4-512db934e35b.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (54): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfTable(&amp;quot;flightsDataGrid&amp;quot;).SelectCell 0,0&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:35</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfTable("flightsDataGrid").SelectCell 0,0]]></Scripts>
+          <LineNo><![CDATA[54]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\c1d1416e-e424-4f50-be2a-846976febf00.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (55): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfTable(&amp;quot;flightsDataGrid&amp;quot;).SelectCell 4,0&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:35</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfTable("flightsDataGrid").SelectCell 4,0]]></Scripts>
+          <LineNo><![CDATA[55]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\2eff28e1-ccfa-4dff-87f1-ee9055040767.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (56): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfButton(&amp;quot;SELECT FLIGHT&amp;quot;).Click&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:35</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfButton("SELECT FLIGHT").Click]]></Scripts>
+          <LineNo><![CDATA[56]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\30726d67-0a94-4315-95b4-1e776d87a1d9.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (57): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfEdit(&amp;quot;passengerName&amp;quot;).Set &amp;quot;my name &amp;quot;&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:36</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfEdit("passengerName").Set "my name "]]></Scripts>
+          <LineNo><![CDATA[57]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\50eac523-e841-432f-bb4e-76a910f91de7.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (58): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfButton(&amp;quot;ORDER&amp;quot;).Click&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:36</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfButton("ORDER").Click]]></Scripts>
+          <LineNo><![CDATA[58]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\7f89cd38-0c77-4fcb-b212-27264012c043.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (59): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfButton(&amp;quot;NEW SEARCH&amp;quot;).Check CheckPoint(&amp;quot;NEW SEARCH&amp;quot;)&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:36</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfButton("NEW SEARCH").Check CheckPoint("NEW SEARCH")]]></Scripts>
+          <LineNo><![CDATA[59]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\eb1759f0-94ad-41f4-883f-c99272f8d77a.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (60): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).WpfButton(&amp;quot;NEW SEARCH&amp;quot;).Click&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:36</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").WpfButton("NEW SEARCH").Click]]></Scripts>
+          <LineNo><![CDATA[60]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\613b2b19-9d51-465b-9bee-bdece81e2d0c.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>ActiveX component can't create object: 'WpfWindow'</Name>
+    <ErrorText>ActiveX component can't create object: 'WpfWindow'</ErrorText>
+    <Description>&lt;BR/&gt;Line (63): &amp;quot;WpfWindow(&amp;quot;Micro Focus MyFlight Sample&amp;quot;).Close&amp;quot;.</Description>
+    <StartTime>2020-11-13 09:07:36</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[WpfWindow("Micro Focus MyFlight Sample").Close]]></Scripts>
+          <LineNo><![CDATA[63]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>572c76d76b4d41ba8c1282c4404d9183</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\1d132df8-f07e-498c-9d22-46ef8ee745ba.jpeg" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2020-11-13 09:07:30</StartTime>
+    <Duration>6</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>58597e4fc4fb452c92e5a4e47183f4f1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2020-11-13 09:07:30</StartTime>
+    <Duration>6</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>0a8f449f42464863a5fa0aedf783e8aa</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>ComplexFailure</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>0</ToolVersion>
+    <ToolVersionStringLiteral>15.0.2</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2020-11-13 09:07:29</StartTime>
+    <Duration>7</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>cd49c7c1ecd64b4a9c98cced54eb608e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+02:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>swinfra\_ft_auto</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2640 v3 @ 2.60GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>4095</TotalMemory>
+      <HostName>swinfra.net\MYD-VM04357</HostName>
+      <OSInfo>Windows 2008 R2 Service Pack 1 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>ComplexFailure</ResultName>
+    <RunStartTime>2020-11-13 09:07:29</RunStartTime>
+    <Timezone>+02:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>0</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>15.0.2</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

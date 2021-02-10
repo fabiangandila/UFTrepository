@@ -1,0 +1,11 @@
+<ArrayOfFlight xmlns="HP.SOAQ.SampleApp" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+ <Flight>
+   <Airlines>AA</Airlines>
+   <ArrivalCity>Denver</ArrivalCity> 
+   <ArrivalTime>01:23 PM</ArrivalTime> 
+   <DepartureCity>London</DepartureCity> 
+   <DepartureTime>06:12 AM</DepartureTime> 
+   <FlightNumber>20279</FlightNumber> 
+   <Price>112.2</Price>
+ </Flight>
+</ArrayOfFlight>

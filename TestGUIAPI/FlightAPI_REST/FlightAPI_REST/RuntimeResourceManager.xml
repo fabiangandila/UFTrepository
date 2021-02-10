@@ -1,0 +1,4 @@
+<RuntimeResourceManager>
+<RuntimeResource><Key>{FlightAPIDataSource!Input.TablePath}</Key><Path>QC</Path><Value>FlightAPIDataSource\SampleAppData.xlsx</Value><AddinId>DataAwarenessDependencyResolver</AddinId></RuntimeResource>
+<RuntimeResource><Key>{FlightAPIDataSource!Output.TablePath}</Key><Path>QC</Path><Value>FlightAPIDataSource\SampleAppData.xlsx</Value><AddinId>DataAwarenessDependencyResolver</AddinId></RuntimeResource>
+</RuntimeResourceManager>
