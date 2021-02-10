@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Step">
+<Data>
+    <Name>Object required: 'iexplore'</Name>
+    <ErrorText>Object required: 'iexplore'</ErrorText>
+    <Description>&lt;BR/&gt;Line (1): &amp;quot;SystemUtil.Run iexplore.exe&amp;quot;.</Description>
+    <StartTime>2019-04-22 11:10:09</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <StackTrace>
+        <StackFrame>
+          <ModuleName><![CDATA[Action1]]></ModuleName>
+          <FileName><![CDATA[Action1]]></FileName>
+          <Language><![CDATA[VBScript - script block]]></Language>
+          <FunctionName><![CDATA[VBScript global code]]></FunctionName>
+          <Scripts><![CDATA[SystemUtil.Run iexplore.exe]]></Scripts>
+          <LineNo><![CDATA[1]]></LineNo>
+        </StackFrame>
+      </StackTrace>
+      <IconKey>3542f8a4013a417c8fc021efb478c797</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <MergeIsErrorIcon>True</MergeIsErrorIcon>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\615bfa65-3496-4247-af26-53a70a76918a.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2019-04-22 11:10:12</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>f54bed988220414784325e82bda304e0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2019-04-22 11:10:09</StartTime>
+    <Duration>3</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>2edb909388c04495b8be6776d7cb8e46</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2019-04-22 11:10:09</StartTime>
+    <Duration>3</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>f8806d00aa884e0982b170b8835cfe8c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>SimpleWebTest</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>14.52</ToolVersion>
+    <ToolVersionStringLiteral>14.52</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2019-04-22 11:10:07</StartTime>
+    <Duration>5</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>f2000546666d424b9b7c03c635a7bbcc</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+03:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>HPESWLAB\gandila</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2640 v3 @ 2.60GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>4095</TotalMemory>
+      <HostName>hpeswlab.net\MYD-VM04357</HostName>
+      <OSInfo>Windows 2008 R2 Service Pack 1 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res3</ResultName>
+    <RunStartTime>2019-04-22 11:10:07</RunStartTime>
+    <Timezone>+03:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>14.52</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>14.52</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Step">
+<Data>
+    <Name>Start</Name>
+    <Description />
+    <StartTime>2020-07-30 11:43:19</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step0.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step0.js</HtmlBottomFilePath>
+      <IconKey>15ec486d98814560bb0b51f2101efaac</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<ReportNode type="Action">
+<ReportNode type="Iteration">
+<Data>
+    <Name>Iteration 1</Name>
+    <Description />
+    <StartTime>2020-07-30 11:43:20</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step1.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step1.js</HtmlBottomFilePath>
+      <IconKey>8130ceea07624afa90bf315e4dd6454b</IconKey>
+    </Extension>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name />
+    <Description />
+    <StartTime>2020-07-30 11:43:20</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <BottomFilePath>Data\Step1.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step1.js</HtmlBottomFilePath>
+      <IconKey>54aa9b5533a04ce6adcfc9d1647b50ee</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Test Flow</Name>
+    <Description />
+    <StartTime>2020-07-30 11:43:20</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step2.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step2.js</HtmlBottomFilePath>
+      <IconKey>15ec486d98814560bb0b51f2101efaac</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>End</Name>
+    <Description />
+    <StartTime>2020-07-30 11:43:20</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step3.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step3.js</HtmlBottomFilePath>
+      <IconKey>15ec486d98814560bb0b51f2101efaac</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>APITest1</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>15.0</ToolVersion>
+    <ToolVersionStringLiteral>15.0</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2020-07-30 11:43:19</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>31634285c490416d90bf90815b5233d0</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+03:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>swinfra\gandila</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2640 v3 @ 2.60GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>4095</TotalMemory>
+      <HostName>swinfra.net\MYD-VM04357</HostName>
+      <OSInfo>Windows 2008 R2 Service Pack 1 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName />
+    <RunStartTime>2020-07-30 11:43:19</RunStartTime>
+    <Timezone>+03:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>15.0</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>15.0</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

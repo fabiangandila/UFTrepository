@@ -1,0 +1,1 @@
+﻿function __get_float_pane_content(){return 'GET https://www.booknomads.com/api/v0/isbn/9789000035526 1.1\r\nHost: www.booknomads.com\r\n';}

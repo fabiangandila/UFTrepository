@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Step">
+<Data>
+    <Name>Add-in(s) not activated</Name>
+    <Description>The following add-in(s) were associated with your test, but are not currently loaded: 
+WPF.</Description>
+    <StartTime>2020-07-09 15:58:36</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2020-07-09 15:58:36</StartTime>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>af2cebd0b3a2438ba7df993d891146df</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2020-07-09 15:58:36</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>eee337eed95a4738a8dc6556d0a6a969</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>GUITest1</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>15.0</ToolVersion>
+    <ToolVersionStringLiteral>15.0</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2020-07-09 15:58:36</StartTime>
+    <Duration>0</Duration>
+    <Result>Warning</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>0596481739944e43aa0d841ba4346b29</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+03:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>swinfra\gandila</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2640 v3 @ 2.60GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>4095</TotalMemory>
+      <HostName>swinfra.net\MYD-VM04357</HostName>
+      <OSInfo>Windows 2008 R2 Service Pack 1 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>GUITest1</ResultName>
+    <RunStartTime>2020-07-09 15:58:36</RunStartTime>
+    <Timezone>+03:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>15.0</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>15.0</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

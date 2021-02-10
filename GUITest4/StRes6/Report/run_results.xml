@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Step">
+<Data>
+    <Name>Start</Name>
+    <Description />
+    <StartTime>2020-07-13 10:33:57</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step0.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step0.js</HtmlBottomFilePath>
+      <IconKey>98045b5ffa3b408ab769baf8ba3e5af4</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<ReportNode type="Action">
+<ReportNode type="Iteration">
+<ReportNode type="Step">
+<Data>
+    <Name>HTTP Request4</Name>
+    <Description>HTTP Request4 ended unsuccessfully</Description>
+    <StartTime>2020-07-13 10:33:57</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <BottomFilePath>Data\Step1.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step1.js</HtmlBottomFilePath>
+      <IconKey>98045b5ffa3b408ab769baf8ba3e5af4</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Iteration 1</Name>
+    <Description />
+    <StartTime>2020-07-13 10:33:57</StartTime>
+    <Duration>3</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <BottomFilePath>Data\Step2.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step2.js</HtmlBottomFilePath>
+      <IconKey>07c118f6fd474fb8805452e0eaede062</IconKey>
+    </Extension>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name />
+    <Description />
+    <StartTime>2020-07-13 10:33:57</StartTime>
+    <Duration>3</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <BottomFilePath>Data\Step2.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step2.js</HtmlBottomFilePath>
+      <IconKey>efbe4f80738e4bed8409d7d5f83b2674</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Iteration">
+<ReportNode type="Step">
+<Data>
+    <Name>HTTP Request4</Name>
+    <Description>HTTP Request4 ended unsuccessfully</Description>
+    <StartTime>2020-07-13 10:34:00</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <BottomFilePath>Data\Step3.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step3.js</HtmlBottomFilePath>
+      <IconKey>98045b5ffa3b408ab769baf8ba3e5af4</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Iteration 2</Name>
+    <Description />
+    <StartTime>2020-07-13 10:34:00</StartTime>
+    <Duration>2</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <BottomFilePath>Data\Step4.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step4.js</HtmlBottomFilePath>
+      <IconKey>07c118f6fd474fb8805452e0eaede062</IconKey>
+    </Extension>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name />
+    <Description />
+    <StartTime>2020-07-13 10:34:00</StartTime>
+    <Duration>2</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <BottomFilePath>Data\Step4.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step4.js</HtmlBottomFilePath>
+      <IconKey>efbe4f80738e4bed8409d7d5f83b2674</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Iteration">
+<ReportNode type="Step">
+<Data>
+    <Name>HTTP Request4</Name>
+    <Description>HTTP Request4 ended unsuccessfully</Description>
+    <StartTime>2020-07-13 10:34:02</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <BottomFilePath>Data\Step5.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step5.js</HtmlBottomFilePath>
+      <IconKey>98045b5ffa3b408ab769baf8ba3e5af4</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Iteration 3</Name>
+    <Description />
+    <StartTime>2020-07-13 10:34:02</StartTime>
+    <Duration>2</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <BottomFilePath>Data\Step6.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step6.js</HtmlBottomFilePath>
+      <IconKey>07c118f6fd474fb8805452e0eaede062</IconKey>
+    </Extension>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name />
+    <Description />
+    <StartTime>2020-07-13 10:34:02</StartTime>
+    <Duration>2</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <BottomFilePath>Data\Step6.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step6.js</HtmlBottomFilePath>
+      <IconKey>efbe4f80738e4bed8409d7d5f83b2674</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Test Flow</Name>
+    <Description />
+    <StartTime>2020-07-13 10:33:57</StartTime>
+    <Duration>7</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <BottomFilePath>Data\Step7.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step7.js</HtmlBottomFilePath>
+      <IconKey>98045b5ffa3b408ab769baf8ba3e5af4</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>End</Name>
+    <Description />
+    <StartTime>2020-07-13 10:34:04</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step8.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step8.js</HtmlBottomFilePath>
+      <IconKey>98045b5ffa3b408ab769baf8ba3e5af4</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>API_WithParam</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>15.0</ToolVersion>
+    <ToolVersionStringLiteral>15.0</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2020-07-13 10:33:57</StartTime>
+    <Duration>7</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>be625c194f644cd08c5cf22b3b166733</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+03:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>swinfra\gandila</User>
+      <CpuInfo>Intel(R) Xeon(R) CPU E5-2640 v3 @ 2.60GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>4095</TotalMemory>
+      <HostName>swinfra.net\MYD-VM04357</HostName>
+      <OSInfo>Windows 2008 R2 Service Pack 1 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>StRes6</ResultName>
+    <RunStartTime>2020-07-13 10:33:57</RunStartTime>
+    <Timezone>+03:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>15.0</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>15.0</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
