@@ -1,1 +1,0 @@
-﻿function __get_float_pane_content(){return 'GET http://localhost:8000/Flights_REST/Flights?DepartureCity=&#38;ArrivalCity=&#38;Date=1/1/0001 12:00:00 AM 1.1\r\nAccept: application/xml\r\nContent-Type: text/xml\r\nHost: localhost:8000\r\nConnection: Keep-Alive\r\n';}

@@ -1,3 +1,1 @@
-2021-02-01 14:37:17,770 [9] ERROR - Error Parsing XML Response: Data at the root level is invalid. Line 1, position 1.
-2021-02-01 14:37:36,417 [9] ERROR - Error Parsing XML Response: Data at the root level is invalid. Line 1, position 1.
-2021-02-01 14:37:52,953 [9] ERROR - Error Parsing XML Response: Data at the root level is invalid. Line 1, position 1.
+2021-02-11 13:04:01,016 [8] ERROR - Error in HTTP activity.  Url:'http://localhost:8000/Flights_REST/Flights?DepartureCity=&ArrivalCity=&Date=1/1/0001 12:00:00 AM': Unable to connect to the remote server

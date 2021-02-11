@@ -1,1 +1,0 @@
-﻿function __get_float_pane_content(){return '&#60;N/A&#62;';}
